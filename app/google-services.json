@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "285977368079",
+    "firebase_url": "https://audioworld-89576.firebaseio.com",
+    "project_id": "audioworld-89576",
+    "storage_bucket": "audioworld-89576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285977368079:android:59e2606960478941",
+        "android_client_info": {
+          "package_name": "ru.hiddenproject.audioworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285977368079-06jv0sg8gbva8o559g97cbspqa9c9ur6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.hiddenproject.audioworld",
+            "certificate_hash": "99cb3156db8ddbae129abc1ebd115a789030dfca"
+          }
+        },
+        {
+          "client_id": "285977368079-o7mu8jhafefltmvacl9l2fu0392ev1pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVZklxw0jhpWzxyTxEF6hZu5qVKsb9nvo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285977368079-o7mu8jhafefltmvacl9l2fu0392ev1pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

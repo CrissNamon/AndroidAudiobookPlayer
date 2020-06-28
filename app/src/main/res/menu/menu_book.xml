@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.hiddenproject.audioworld.BookActivity">
+    <item
+    android:id="@+id/action_share"
+    android:orderInCategory="100"
+    android:title="Поделиться"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_favourite"
+        android:orderInCategory="100"
+        android:title="В архив"
+        app:showAsAction="never" />
+</menu>

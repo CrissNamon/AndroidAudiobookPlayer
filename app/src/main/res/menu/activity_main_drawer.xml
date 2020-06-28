@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Коллекция">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_new"
+                    android:icon="@drawable/new_icon"
+                    android:title="Новинки" />
+                <item
+                    android:id="@+id/nav_library"
+                    android:icon="@drawable/library"
+                    android:title="Библиотека" />
+                <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/search_icon"
+                    android:title="Поиск" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Читатель">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_archive"
+                    android:icon="@drawable/archive_icon"
+                    android:title="Мой архив" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Сообщество">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_vk"
+                    android:icon="@drawable/vk"
+                    android:title="ВКонтакте" />
+            </group>
+        </menu>
+    </item>
+</menu>
